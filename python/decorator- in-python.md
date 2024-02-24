@@ -1,4 +1,6 @@
-def check(data_type):
+*Decorators in Python*
+**Exaple**
+'''def check(data_type):
 
     def wrapper(fun):
 
@@ -15,7 +17,6 @@ def check(data_type):
         return inner_wrapper    
     
     return wrapper
-
 @check(int)
 def main(num):
     print(num**2)
@@ -24,3 +25,4 @@ def main(num):
 a=main(6)
 
 print(a)
+'''
