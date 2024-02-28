@@ -44,9 +44,11 @@ range (0, 5)<br>
 Here, the range loops over  to .  is excluded.<br>
 
 ### Language
- <python>
- <https://www.hackerrank.com/challenges/find-a-string/problem?isFullScreen=true> <br>
+
+Hackerrank:  <https://www.hackerrank.com/challenges/find-a-string/problem?isFullScreen=true> <br>
  <https://www.hackerrank.com/profile/krishnapatidar62>
+
+<br>
 
 ## Solutions
 
