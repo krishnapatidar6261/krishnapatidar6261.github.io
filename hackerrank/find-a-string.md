@@ -58,7 +58,7 @@ Test against custom input
 
 ## Solutions
 
-<p>
+
 
 #Solution of Given problem
 
@@ -85,4 +85,3 @@ Test against custom input
     
     count = count_substring(string, sub_string)
     print(count)
-</p>
