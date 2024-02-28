@@ -60,7 +60,7 @@ Test against custom input
 
 
 
-#Solution of Given problem
+# Solution of Given problem
 
  def count_substring(string, sub_string):
     
