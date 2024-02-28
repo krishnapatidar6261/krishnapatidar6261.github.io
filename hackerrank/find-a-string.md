@@ -60,7 +60,9 @@ Test against custom input
 
 <p>
 
-def count_substring(string, sub_string):
+#Solution of Given problem
+
+ def count_substring(string, sub_string):
     
     sl=len(sub_string)
     count=0
@@ -77,7 +79,7 @@ def count_substring(string, sub_string):
    
     
     return count
-if __name__ == '__main__':
+ if __name__ == '__main__':
     string = input().strip()
     sub_string = input().strip()
     
