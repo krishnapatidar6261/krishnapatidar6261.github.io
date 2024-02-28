@@ -1,66 +1,58 @@
 ## Problem 
-In this challenge, the user enters a string and a substring. You have to print the number of times that the substring occurs in the given string. String traversal will take place from left to right, not from right to left.
+<p> In this challenge, the user enters a string and a substring. You have to print the number of times that the substring occurs in the given string. String traversal will take place from left to right, not from right to left. </p>
 
-NOTE: String letters are case-sensitive.
+NOTE: String letters are case-sensitive. <br>
 
-Input Format
+Input Format <br>
 
-The first line of input contains the original string. The next line contains the substring.
+<p> 
+    The first line of input contains the original string. The next line contains the substring.
+</p>
 
-Constraints
+### Constraints
 
 
 Each character in the string is an ascii character.
 
-Output Format
+### Output Format<br>
 
 Output the integer number indicating the total number of occurrences of the substring in the original string.
 
-Sample Input
+### Sample Input<br>
 
-ABCDCDC
-CDC
-Sample Output
+ABCDCDC<br>
+CDC<br>
+Sample Output<br>
 
 2
-Concept
 
-Some string processing examples, such as these, might be useful.
-There are a couple of new concepts:
-In Python, the length of a string is found by the function len(s), where  is the string.
-To traverse through the length of a string, use a for loop:
+<br><br>
 
-for i in range(0, len(s)):
-    print (s[i])
-A range function is used to loop over some length:
+### Concept
 
-range (0, 5)
-Here, the range loops over  to .  is excluded.
+<p> Some string processing examples, such as these, might be useful. <br>
+    There are a couple of new concepts:<br>
+    In Python, the length of a string is found by the function len(s), where  is the string. <br>
+    To traverse through the length of a string, use a for loop: <br>
+</p>
 
-Language
-Pypy 3
-More
-123456789101112131415161718
-def count_substring(string, sub_string):
-    
-    sl=len(sub_string)
-    count=0
-    for i in range(len(string)):
-        
-        if sub_string == string[i:sl]:
+for i in range(0, len(s)): <br>
+    print (s[i]) <br>
+A range function is used to loop over some length:<br>
 
-            count+=1
-            
+range (0, 5)<br>
+Here, the range loops over  to .  is excluded.<br>
 
-Line: 1 Col: 1
-
-Test against custom input
+### Language
+ <python>
+ <https://www.hackerrank.com/challenges/find-a-string/problem?isFullScreen=true> <br>
+ <https://www.hackerrank.com/profile/krishnapatidar62>
 
 ## Solutions
 
 
 
-# Solution of Given problem
+### Solution of Given problem
 
  def count_substring(string, sub_string):
     
