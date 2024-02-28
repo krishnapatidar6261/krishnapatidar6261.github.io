@@ -1,16 +1,15 @@
 ## Problem 
 <p> In this challenge, the user enters a string and a substring. You have to print the number of times that the substring occurs in the given string. String traversal will take place from left to right, not from right to left. </p>
 
-NOTE: String letters are case-sensitive. <br>
+<b> NOTE:</b> String letters are case-sensitive. <br>
 
-Input Format <br>
+<b>Input Format</b> <br>
 
 <p> 
     The first line of input contains the original string. The next line contains the substring.
 </p>
 
 ### Constraints
-
 
 Each character in the string is an ascii character.
 
@@ -43,15 +42,10 @@ A range function is used to loop over some length:<br>
 range (0, 5)<br>
 Here, the range loops over  to .  is excluded.<br>
 
-### Language
-
-Hackerrank:  <https://www.hackerrank.com/challenges/find-a-string/problem?isFullScreen=true> <br>
- <https://www.hackerrank.com/profile/krishnapatidar62>
 
 <br>
 
 ## Solutions
-
 
 
 ### Solution of Given problem
@@ -79,3 +73,11 @@ Hackerrank:  <https://www.hackerrank.com/challenges/find-a-string/problem?isFull
     
     count = count_substring(string, sub_string)
     print(count)
+
+
+
+### Contact
+
+Hackerrank:  <https://www.hackerrank.com/challenges/find-a-string/problem?isFullScreen=true> <br>
+MY Account: <https://www.hackerrank.com/profile/krishnapatidar62><br>
+Linkedin: <https://www.linkedin.com/in/krishna-patidar-kp/>
