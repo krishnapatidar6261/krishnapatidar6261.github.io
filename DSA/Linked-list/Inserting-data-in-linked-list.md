@@ -105,3 +105,14 @@ print(len(obj))
 obj.insert_after(10, 100)
 print(obj)
 print(len(obj))
+
+''' Output:
+10-->20
+2
+
+hello-->10-->20
+
+
+hello-->10-->100-->20
+4
+'''
