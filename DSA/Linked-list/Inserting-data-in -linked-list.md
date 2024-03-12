@@ -11,8 +11,15 @@ Each node contains two parts:
 
 Unlike arrays, singly linked lists do not have a fixed size, and memory allocation for nodes is dynamic. This allows for efficient insertion and deletion operations at any position in the list, as long as the position is known. However, accessing an element by index in a singly linked list is less efficient compared to arrays because you have to traverse the list from the beginning to reach the desired element.
 
+## Requirements
 
-# Singly Linked List Implementation in Python
+Before running this program, ensure you have the following dependencies installed:
+
+- Python 3.x
+- Visual Studio Code (or any other code editor of your choice)
+
+
+# Singly Linked List Creating and Inserting Data Implementation in Python
 
 This Python program demonstrates the implementation of a singly linked list. It includes functionalities to:
 - Append elements to the end of the list
@@ -86,11 +93,34 @@ class LinkedList(Node):
 obj = LinkedList()
 obj.append(10)
 obj.append(20)
+
+
 print(obj)
 print(len(obj))
+
 obj.head_append("hello")
 print(obj)
 print(len(obj))
+
 obj.insert_after(10, 100)
 print(obj)
 print(len(obj))
+
+''' Output:
+10-->20
+2
+
+hello-->10-->20
+
+
+hello-->10-->100-->20
+4
+'''
+
+
+## Contact Information
+
+For any inquiries or feedback, feel free to reach out:
+
+- **LinkedIn**: [Krishna Patidar](https://www.linkedin.com/in/krishna-patidar-kp/)
+- **GitHub**: [krishnapatidar6261](https://github.com/krishnapatidar6261)
