@@ -116,11 +116,3 @@ hello-->10-->20
 hello-->10-->100-->20
 4
 '''
-
-
-## Contact Information
-
-For any inquiries or feedback, feel free to reach out:
-
-- **LinkedIn**: [Krishna Patidar](https://www.linkedin.com/in/krishna-patidar-kp/)
-- **GitHub**: [krishnapatidar6261](https://github.com/krishnapatidar6261)
