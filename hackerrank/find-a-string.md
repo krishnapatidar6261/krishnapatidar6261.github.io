@@ -63,11 +63,10 @@ Here, the range loops over  to .  is excluded.<br>
             sl+=1
         
         else:
-            sl+=1
-   
+            sl+=1   
     
     return count
- if __name__ == '__main__':
+if __name__ == '__main__':
     string = input().strip()
     sub_string = input().strip()
     
